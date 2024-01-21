@@ -71,6 +71,8 @@ export const Detail = () => {
               <h1 className='text-white absolute bottom-0 p-10 text-2xl md:text-6xl font-bold text-center'>{moviedet.title}</h1>
               {moviedet.backdrop_path === null ? <img src={noimage} className='h-full w-full' /> : <img src={"https://image.tmdb.org/t/p/original/" + moviedet.backdrop_path} className='h-full w-full' />}
             </div>
+            <script async="async" data-cfasync="false" src="//pl22229453.toprevenuegate.com/bcd6b9f7fec2d0a5a178f60ac17eacbf/invoke.js"></script>
+<div id="container-bcd6b9f7fec2d0a5a178f60ac17eacbf"></div>
 
             {/* overview */}
             <h2 className='text-white text-center pt-5 px-3 md:px-60 font-Roboto text-[18px]'>{moviedet.overview}</h2>
